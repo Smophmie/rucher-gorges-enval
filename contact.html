@@ -3,50 +3,59 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Accueil - Rucher des Gorges d'Enval</title>
-    <link href="style/contact-style.css" rel="stylesheet">
-    <link href="style/contact-style.css" rel="stylesheet">
+    <title>Contact - Rucher des Gorges d'Enval</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/contact-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Oswald&display=swap" rel="stylesheet">
     
 </head>
 
 <body>
    <header>
-        <h1>Le Rucher des Gorges d'Enval</h1>
+        <div>
+        <a href="index.html"><img src="images/logo_nom.png" alt=""></a>
+        </div>
         <nav class="header_nav">
             <!-- Créer une bannière particulière-->
             <a class="btn-nav" href="index.html">Accueil</a>
-            <a class="btn-nav" href="mieux-me-connaitre.html">Mieux me connaître</a>
-            <a class="btn-nav" href="evolution-rucher.html">Voir l'évolution du rucher</a>
-            <a class="btn-nav" href="historique-recoltes.html">Accéder à l'historique des récoltes</a>
+            <a class="btn-nav" href="mieux-me-connaitre.html">A propos</a>
+            <a class="btn-nav" href="evolution-rucher.html">Evolution du rucher</a>
+            <a class="btn-nav" href="historique-recoltes.html">Historique des récoltes</a>
             <a class="btn-nav" href="galerie-photos.html">Galerie photos</a>
-        </nav>
+       </nav>
    </header>
 
    <main>
         <section>
-            <h2>Me contacter</h2>
+            <h1>Me contacter</h1>
             <p>
                 <form> <!--Définir une action pour ce formulaire : envoi des éléments à Kevin-->
-                    <ul>
-                        <li>
-                            <label for="nom">Votre nom : </label>
-                            <input type="text" id="nom">
-                        </li>
-                        <li>
-                            <label for="mail">Votre adresse e-mail : </label>
-                            <input type="email" id="mail">
-                        </li>
-                        <li>
-                            <label for="message">Votre message : </label>
-                            <textarea id="message"></textarea>
-                        </li>
-                        <li>
-                            <button type="submit"><b>Envoyer</b></button>
-                        </li>
-                    </ul>
+                    <div>
+                        <label for="name">Votre nom : </label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div>
+                        <label for="firstname">Votre prénom : </label>
+                        <input type="text" id="firstname" required>
+                    </div>
+                    <div>
+                        <label for="mail">Votre adresse e-mail : </label>
+                        <input type="email" id="mail"required>
+                    </div>
+                    <div>
+                        <label for="phonenumber">Votre numéro de téléphone :</label>
+                        <input type="tel">
+                    </div>
+                    <div>
+                        <label for="message">Votre message : </label>
+                        <textarea id="message" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit"></input>
+                    </div>
                 </form>
             </p>
         </section>

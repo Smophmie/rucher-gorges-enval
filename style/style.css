@@ -1,80 +1,84 @@
 body {
     font-family: "Barlow";
-    background-image: url(../images/cadre.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/cellules.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     text-align: justify;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #242424;
+    padding: 15px;
 }
 
 header, footer, main {
+    width: 100%;
     margin: 40px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+header img {
+    height:100%;
+    padding: 5px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border-radius: 20px;  
-    background-color: rgba(42,33,20,0.6);
-}
-
-main {
-    background-color: rgba(42,33,20,0.6);
-    background-size: cover;
-    border-radius: 20px;
-    padding: 2%;
-}
-
-
-@keyframes apparition {
-    100%{
-        opacity : 1;
-        transform: none;
-    }
-}
-
-
-header, footer, main {
-    opacity : 0;
-    transform: translateY(-30px);
-    animation: apparition 0.6s 0.6s ease forwards;
-}
-
-h1 {
-    text-align: center;
-    font-family: "Roboto Slab";
-    font-size: 50px;
-}
-
-h2 {
-    color: rgb(222,196,169);
-    font-family: "Roboto Slab";
-    font-size: 35px;
-    margin : 2%;
-}
-
-p, form {
-    margin: 2%;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
 }
 
 .btn-nav {
     text-decoration: none;
-    color: white;
+    color: #C38820;
     padding: 0.5% 3%;
     margin:0%;
-    border-radius: 20px;
     transition: 1s;
     text-align: start;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 100%;
+    transition: 0.2s;
 }
 
 .btn-nav:hover {
-    background-color: rgb(228,177,139);
+    border-bottom: 2px solid #C38820 ;
+    margin-bottom: 5px;
 }
 
 
-a:active {
-    background-color: rgb(228,177,139);
+.btn-nav:active {
+    border-bottom: 2px solid #C38820 ;
+    margin-bottom: 5px;
     font-weight: bold;
+}
+
+h1 {
+    color: #C38820;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 35px;
+}
+
+h2{
+    color: hsla(38, 72%, 45%, 0.9); 
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer_nav {
+    margin: auto;
+}
+
+@media screen and (max-width: 1200px){
+    header{height: 30%;}
+    header, nav{flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    header img{width:300px;}
 }

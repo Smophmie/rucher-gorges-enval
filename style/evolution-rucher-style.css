@@ -1,12 +1,8 @@
 #tableau-evolution {
-    text-align: justify;
     font-size: 1.1em;
-    color: rgb(255, 255, 255);
     width: 95%;
     padding: 3%;
     margin: auto;
-    background-color: rgba(42,33,20,0.4);
-    border-radius: 20px;
 }
 
 caption {
@@ -15,8 +11,11 @@ caption {
 }
 
 table, th, td {
-    /*border : 1px solid white;*/
     border-collapse: collapse;
     padding: 0.5em;
     text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #C38820;
 }

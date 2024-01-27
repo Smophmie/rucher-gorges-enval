@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 1em;
+}
+
+label {
+    display: inline-block;
+    width:11em;
+
+}
+
+input,textarea {
+    width: 25em;
+    padding: 0.5em;
+    font: 1em sans-serif;
+    border-style: none;
+    border-radius: 20px;
+}
+
+textarea {
+    height: 14em;
+    vertical-align: top;
+}
+
+button {
+    border-style: none;
+    border-radius: 20px;
+    width: 10em;
+    height: 4em;
+    background-color: rgb(222,196,169);
+    color: white;
+    font-family: "Barlow";
+    font-size:85%;
+    margin-top: 1em;
+    margin-left: 24em;
+}

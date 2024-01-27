@@ -1,0 +1,8 @@
+.photo_galery img {
+    height: 29%;
+    width: 29%;
+    padding: 2%;
+    opacity : 0;
+    transform: translateY(-30px);
+    animation: apparition 1s 1s ease forwards;
+}

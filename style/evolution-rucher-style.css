@@ -1,0 +1,22 @@
+#tableau-evolution {
+    text-align: justify;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    width: 95%;
+    padding: 3%;
+    margin: auto;
+    background-color: rgba(42,33,20,0.4);
+    border-radius: 20px;
+}
+
+caption {
+    padding:0.5em;
+    font-weight: 500;
+}
+
+table, th, td {
+    /*border : 1px solid white;*/
+    border-collapse: collapse;
+    padding: 0.5em;
+    text-align: center;
+}

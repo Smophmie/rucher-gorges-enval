@@ -1,7 +1,7 @@
-body {
+html {
     font-family: "Barlow";
     background-image: url(../images/cellules.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: justify;
     font-size: 18px;
@@ -11,10 +11,14 @@ body {
 }
 
 header,
-footer,
-main {
+footer {
     width: 100%;
     margin: 40px 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
 }
 
 header {

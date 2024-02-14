@@ -2,7 +2,11 @@
     height: 29%;
     width: 29%;
     padding: 2%;
-    opacity : 1;
-    transform: translateY(-30px);
-    animation: apparition 1s 1s ease forwards;
+}
+
+@media screen and (max-width: 1200px) {
+    .photo_galery img {
+        width: 90%;
+        height: auto;
+}
 }

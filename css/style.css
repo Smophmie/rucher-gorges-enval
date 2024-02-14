@@ -81,7 +81,7 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-    html{
+    html {
         background-image: url(../images/cellules-mobile.png);
         background-size: contain;
         background-repeat: repeat;
@@ -97,6 +97,9 @@ h2 {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .btn-nav {
+        font-size: 25px;
     }
 
     header img {

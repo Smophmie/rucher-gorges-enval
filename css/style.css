@@ -85,7 +85,10 @@ h2 {
         background-image: url(../images/cellules-mobile.png);
         background-size: contain;
         background-repeat: repeat;
-        font-size: 24px;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
     }
     header {
         height: 30%;
@@ -99,7 +102,7 @@ h2 {
         width: 100%;
     }
     .btn-nav {
-        font-size: 26px;
+        font-size: 33px;
     }
 
     header img {
